@@ -1,4 +1,4 @@
-# JS-CODE-LIBRARU
+# JS-CODE-LIBRARY
 
 Small tool to store and display the code snippets writen in js code.
 The snipets should be small algorithms and reusable parts of code that once written for one project, can be quickly found and use in another application. The tool can also store a template code for a typical files, like vue templates, pinia, etc.
@@ -29,7 +29,7 @@ The snipets should be small algorithms and reusable parts of code that once writ
   VITE_APP_SUPABASE_ANON_KEY=...
   ```
 
-## supabase setuo:
+## supabase setup:
 
 - create a new project
 - create javascript-snippets table
