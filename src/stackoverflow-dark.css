@@ -4,6 +4,11 @@ pre code.hljs {
   padding: 1em;
   height: 100%;
 }
+
+/*for selection*/
+code *::selection {
+  background-color: #584b1f !important;
+}
 /* code.hljs {
   padding: 3px 5px;
 } */

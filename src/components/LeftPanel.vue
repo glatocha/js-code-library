@@ -34,6 +34,8 @@ export default {
 
     function selectItem(item) {
       store.dispatch("setSelectedItem", item);
+      //TODO: modify the address bar
+      window.history.replaceState({ page: "page" }, "", `?selectItem=${item.id}`);
     }
 
     return { listOfItems, searchResults, selectItem };

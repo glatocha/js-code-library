@@ -1,3 +1,6 @@
+ToDo:
+- add arguments to the page address to be able to directly go to that page
+
 Project Definition:
 - VBA Code Library as the pureJS one that I had
 - destop first design, but viewable on mobile

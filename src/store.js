@@ -98,6 +98,12 @@ const Store = createStore({
     setSelectedItem(context, payload) {
       context.commit("setSelectedItem", payload);
     },
+    setItemByURLNumber(context, itemID) {
+      context.commit(
+        "setSelectedItem",
+        context.getters.items.find((item) => item.id == itemID)
+      );
+    },
     forceRefresh(context) {
       context.commit("forceRefresh");
     },
